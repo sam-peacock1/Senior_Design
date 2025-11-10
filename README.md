@@ -39,5 +39,9 @@ This project is a modern, responsive personal portfolio website built to showcas
 
 ## Project Tasks & Timeline
 ### Project Tasks
+[Project Tasks](InClass_HW_Assignments/Task_List.md)
+
+### Timeline
+[Project Timeline](
 
 
