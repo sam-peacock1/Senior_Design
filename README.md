@@ -7,7 +7,7 @@
 3. [User Stories](#User-Stories)
 4. [Design Diagrams](#Design-Diagrams)
 5. [Project Tasks, Timeline, and Effort Matrix](#Project-Tasks-&-Timeline)
-6. [Concerns Essay](#Concerns-Essay)
+6. [Constraints Essay](#Contraints-Essay)
 7. [Project Slideshow](#Project-Slideshow)
 8. [Self-Assessment Essay](#Self-Assessment-Essay)
 9. [Professional Biographies](#Professional-Biographies)
@@ -27,8 +27,6 @@ This project is a modern, responsive personal portfolio website built to showcas
 ## Project Description
 [Project Description](InClass_HW_Assignments/Project_description.md)
 
-## MORE WILL BE ADDED AS THE PROJECT IS WORKED ON
-
 ## User Stories 
 [User Stories](InClass_HW_Assignments/User_Stories.md)
 
@@ -46,6 +44,9 @@ This project is a modern, responsive personal portfolio website built to showcas
 
 ### Effort Matrix
 [Effort Matrix](InClass_HW_Assignments/Effort_Matrix.pdf)
+
+## Concerns Essay
+[Constraints Essay](InClass_HW_Assignments/Essays/ConstraintsEssay.pdf)
 
 
 
