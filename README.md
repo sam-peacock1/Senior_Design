@@ -6,7 +6,7 @@
 2. [Project Description](#Project-Description)
 3. [User Stories](#User-Stories)
 4. [Design Diagrams](#Design-Diagrams)
-5. [Project Tasks & Timeline](#Project-Tasks-&-Timeline)
+5. [Project Tasks, Timeline, and Effort Matrix](#Project-Tasks-&-Timeline)
 6. [Concerns Essay](#Concerns-Essay)
 7. [Project Slideshow](#Project-Slideshow)
 8. [Self-Assessment Essay](#Self-Assessment-Essay)
@@ -37,11 +37,18 @@ This project is a modern, responsive personal portfolio website built to showcas
 - [Design Diagrams1](InClass_HW_Assignments/Design_Diagrams/Design_D1.pdf)
 - [Design Diagrams2](InClass_HW_Assignments/Design_Diagrams/Design_d2.pdf)
 
-## Project Tasks & Timeline
+## Project Tasks, Timeline, and Effort Matrix
 ### Project Tasks
 [Project Tasks](InClass_HW_Assignments/Task_List.md)
 
 ### Timeline
-[Project Timeline](
+[Project Timeline](InClass_HW_Assignments/Project_Timeline.pdf)
+
+### Effort Matrix
+[Effort Matrix](InClass_HW_Assignments/Effort Matrix.pdf)
+
+
+
+
 
 
