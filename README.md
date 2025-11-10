@@ -7,10 +7,10 @@
 3. [User Stories](#User-Stories)
 4. [Design Diagrams](#Design-Diagrams)
 5. [Project Tasks, Timeline, and Effort Matrix](#Project-Tasks-&-Timeline)
-6. [Constraints Essay](#Contraints-Essay)
+6. [Constraints Essay](#Constraints-Essay)
 7. [Project Slideshow](#Project-Slideshow)
 8. [Self-Assessment Essay](#Self-Assessment-Essay)
-9. [Professional Biographies](#Professional-Biographies)
+9. [Professional Biography](#Professional-Biography)
 10. [Budget](#Budget)
 11. [Appendix](#Appendix)
 
@@ -45,8 +45,26 @@ This project is a modern, responsive personal portfolio website built to showcas
 ### Effort Matrix
 [Effort Matrix](InClass_HW_Assignments/Effort_Matrix.pdf)
 
-## Concerns Essay
-[Constraints Essay](InClass_HW_Assignments/Essays/ConstraintsEssay.pdf)
+## Constraints Essay
+[Constraints Essay](InClass_HW_Assignments/Essays/Constraints_Essay.pdf)
+
+## Project Slideshow
+[Project Slideshow](InClass_HW_Assignments/Fall_Design_Presentation.pdf)
+
+## Self Assessment Essay
+[Self Assessment Essay](InClass_HW_Assignments/Essays/Capstone_Assesment.pdf)
+
+## Professional Biography
+[Professional Biography](InClass_HW_Assignments/Sam_Peacock_Biography.md)
+
+## Budget
+There is virtually no budget for this project; anything I use will be free to use. The only thing I will be purchasing is a domain for the website
+
+## Apendix
+- Currently N/A
+
+
+
 
 
 
