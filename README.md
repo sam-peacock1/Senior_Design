@@ -19,7 +19,7 @@
 - Sam Peacock
   - Email: Peacocsl@mail.uc.edu
 - John Vaskis (Advisor)
-  -Email: john.vaskis@shl-medical.com
+  - Email: john.vaskis@shl-medical.com
 
 ### Project Abstract
 This project is a modern, responsive personal portfolio website built to showcase technical skills and project experience. Leveraging React for a dynamic UI and Tailwind CSS for utility-first styling, it features a filterable project gallery, an interactive skills overview, and a functional contact form. The core goal is to create a professional online presence that effectively communicates value to potential employers.
