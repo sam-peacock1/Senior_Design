@@ -33,9 +33,9 @@ This project is a modern, responsive personal portfolio website built to showcas
 [User Stories](InClass_HW_Assignments/User_Stories.md)
 
 ## Design Diagrams
-[Design Diagrams](InClass_HW_Assignments/Design_Diagrams/Design_d0.pdf)
-[Design Diagrams](InClass_HW_Assignments/Design_Diagrams/Design_D1.pdf)
-[Design Diagrams](InClass_HW_Assignments/Design_Diagrams/Design_d2.pdf)
+-[Design Diagrams0](InClass_HW_Assignments/Design_Diagrams/Design_d0.pdf)
+-[Design Diagrams1](InClass_HW_Assignments/Design_Diagrams/Design_D1.pdf)
+-[Design Diagrams2](InClass_HW_Assignments/Design_Diagrams/Design_d2.pdf)
 
 ## Project Tasks & Timeline
 ### Project Tasks
