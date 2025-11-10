@@ -45,7 +45,7 @@ This project is a modern, responsive personal portfolio website built to showcas
 [Project Timeline](InClass_HW_Assignments/Project_Timeline.pdf)
 
 ### Effort Matrix
-[Effort Matrix](InClass_HW_Assignments/Effort Matrix.pdf)
+[Effort Matrix](InClass_HW_Assignments/Effort_Matrix.pdf)
 
 
 
