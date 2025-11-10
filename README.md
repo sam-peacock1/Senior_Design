@@ -6,7 +6,7 @@
 2. [Project Description](#Project-Description)
 3. [User Stories](#User-Stories)
 4. [Design Diagrams](#Design-Diagrams)
-5. [Project Tasks, Timeline, and Effort Matrix](#Project-Tasks-&-Timeline)
+5. [Project Tasks, Timeline, and Effort Matrix](#Project-Tasks-,-Timeline-,-and-Effort-Matrix)
 6. [Constraints Essay](#Constraints-Essay)
 7. [Project Slideshow](#Project-Slideshow)
 8. [Self-Assessment Essay](#Self-Assessment-Essay)
