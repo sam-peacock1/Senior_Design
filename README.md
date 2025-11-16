@@ -41,24 +41,31 @@ This project is a modern, responsive personal portfolio website built to showcas
 ## Project Tasks, Timeline, and Effort Matrix
 ### Project Tasks
 [Project Tasks](InClass_HW_Assignments/Task_List.md)
+- outlines all tasks needed to be completed for a sucessful project
 
 ### Timeline
 [Project Timeline](InClass_HW_Assignments/Project_Timeline.pdf)
+- basic project timeline for to help keep development on track
 
 ### Effort Matrix
 [Effort Matrix](InClass_HW_Assignments/Effort_Matrix.pdf)
-
+- goes into detail on how much time each task is estimated to tack
+  
 ## Constraints Essay
 [Constraints Essay](InClass_HW_Assignments/Essays/Constraints_Essay.pdf)
+- essay going over possible constriants that need to be taken into account when developing
 
 ## Project Slideshow
 [Project Slideshow](InClass_HW_Assignments/Fall_Design_Presentation.pdf)
+- slideshow going over the basics of the project
 
 ## Self Assessment Essay
 [Self Assessment Essay](InClass_HW_Assignments/Essays/Capstone_Assesment.pdf)
+- a self assesment essay about how I am feeling about the project
 
 ## Professional Biography
 [Professional Biography](InClass_HW_Assignments/Sam_Peacock_Biography.md)
+- Biography covering some basic information about me
 
 ## Budget
 There is virtually no budget for this project; anything I use will be free to use. The only thing I will be purchasing is a domain for the website
