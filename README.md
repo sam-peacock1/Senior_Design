@@ -40,7 +40,7 @@ This project is a modern, responsive personal portfolio website built to showcas
 - [Design Diagrams2](InClass_HW_Assignments/Design_Diagrams/Design_d2.pdf)
     - The third level is the most in dpeth and goes into more detail into each aspect of the front and back end functionalities of the website
 
-##[Project Tasks, Timeline, and Effort Matrix]Project Tasks, Timeline, and Effort Matrix
+##[Project Tasks, Timeline, and Effort Matrix] Project Tasks, Timeline, and Effort Matrix
 ### Project Tasks
 [Project Tasks](InClass_HW_Assignments/Task_List.md)
 - outlines all tasks needed to be completed for a sucessful project
