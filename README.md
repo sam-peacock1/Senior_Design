@@ -32,8 +32,11 @@ This project is a modern, responsive personal portfolio website built to showcas
 
 ## Design Diagrams
 - [Design Diagrams0](InClass_HW_Assignments/Design_Diagrams/Design_d0.pdf)
+  - The first design diagram level shows the basic inputs and outputs neeed for basic website functionalities
 - [Design Diagrams1](InClass_HW_Assignments/Design_Diagrams/Design_D1.pdf)
+  - The second level shows a  more in dpeth view of the website, specifically showing the front end and backend divison
 - [Design Diagrams2](InClass_HW_Assignments/Design_Diagrams/Design_d2.pdf)
+    - The third level is the most in dpeth and goes into more detail into each aspect of the front and back end functionalities of the website
 
 ## Project Tasks, Timeline, and Effort Matrix
 ### Project Tasks
