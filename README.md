@@ -73,7 +73,8 @@ This project is a modern, responsive personal portfolio website built to showcas
 There is virtually no budget for this project; anything I use will be free to use. The only thing I will be purchasing is a domain for the website
 
 ## Apendix
-- Currently N/A
+- All in class assignments and research for this project was done by Sam Peacock and ended up being about fourty five hours of work.
+  - I meet with John Vaskis (advisor) to discuss possible challenges for the project as well as some guidence for getting started and creating a basic layout of website.
 
 
 
