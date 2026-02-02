@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "nodemailer": "^7.0.12",
+    "react-multi-carousel": "^2.8.6",
+    "server": "^1.0.42"
+  }
+}
