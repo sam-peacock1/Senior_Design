@@ -21,29 +21,32 @@ export const NavBar = () => {
         return () => window.removeEventListener("scroll", onScroll);
     }, []);
 
+    const onUpdateActiveLink = (value) => {
+        setActiveLink(value);
+    }
 
     return (
-    <Navbar expand="lg" className={scrolled ? 'scrolled' : ''}>
-        <Container>
-        <Navbar.Brand href="#home"></Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home" className = {activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick = {() => setActiveLink('home')} >Home</Nav.Link>
-            <Nav.Link href="#about" className = {activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick = {() => setActiveLink('about')}>About</Nav.Link>
-            <Nav.Link href="#experiance" className = {activeLink === 'experiance' ? 'active navbar-link' : 'navbar-link'} onClick = {() => setActiveLink('experiance')}>Experience</Nav.Link>
-            <Nav.Link href="#projects" className = {activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick = {() => setActiveLink('projects')}>Projects</Nav.Link>
-            <Nav.Link href="#contact" className = {activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick = {() => setActiveLink('contact')}>Contact</Nav.Link>
-          </Nav>
-          <span className = "navbar-text">
-            <div className="social-icons">
-                <a href="#"><img src={githubLogo} alt="GitHub" /></a>
-                <a href="#"><img src={linkedLogo} alt="LinkedIn" /></a>
-            </div>
-            <button className = "vvd" onClick = {() => console.log('connect')}><span>Let’s Connect</span></button>
-          </span>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-  );
-    }
+        <Navbar expand="lg" className={scrolled ? 'scrolled' : ''}>
+            <Container>
+                <Navbar.Brand href="#home"></Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="me-auto">
+                        <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')} >Home</Nav.Link>
+                        <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>About</Nav.Link>
+                        <Nav.Link href="#experiance" className={activeLink === 'experiance' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('experiance')}>Experience</Nav.Link>
+                        <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+                        <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>Contact</Nav.Link>
+                    </Nav>
+                    <span className="navbar-text">
+                        <div className="social-icons">
+                            <a href="#"><img src={githubLogo} alt="GitHub" /></a>
+                            <a href="#"><img src={linkedLogo} alt="LinkedIn" /></a>
+                        </div>
+                            <button className="vvd"><span>Let’s Connect</span></button>
+                    </span>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
+    );
+}
