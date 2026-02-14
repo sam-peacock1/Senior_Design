@@ -24,18 +24,18 @@ export const Projects = () => {
             <Container>
                 <Row>
                     <Col>
-                    <h2>Projects</h2>
-                    <p>Here are some of my projects!</p>
+                    <h2>Experiance</h2>
+                    <p>Here are some of my professional experiences!</p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
-                                <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                                <Nav.Link eventKey="first">Fives Machining Systems</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                                <Nav.Link eventKey="second">Cincinnati Reds</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                                <Nav.Link eventKey="third">Bosch</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                             <Tab.Content>

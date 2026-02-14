@@ -1,9 +1,18 @@
 import Carousel from "react-multi-carousel";
 import { Container, Row, Col } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
-
-// Ideally, import your images here
-// import meter1 from "../assets/img/meter1.svg";
+import cppLogo from "../assets/img/cppLogo.svg";
+import csharpLogo from "../assets/img/csLogo.svg";
+import cLogo from "../assets/img/cLogo.svg";
+import cssLogo from "../assets/img/cssLogo.svg";
+import jsLogo from "../assets/img/javascriptLogo.svg";
+import javaLogo from "../assets/img/javaLogo.svg";
+import pythonLogo from "../assets/img/pythonLogo.svg";
+import sqlLogo from "../assets/img/sqlLogo.svg";
+import vbaLogo from "../assets/img/vbaLogo.svg";
+import tableauLogo from "../assets/img/tableauLogo.svg";
+import gitLogo from "../assets/img/gitLogo.svg";
+import mercurialLogo from "../assets/img/mLogo.svg";
 
 export const Skills = () => {
   const responsive = {
@@ -39,20 +48,52 @@ export const Skills = () => {
                 className="skill-slider"
               >
                 <div className="item">
-                  <img src={""} alt="Image" />
-                  <h5>Web Development</h5>
+                  <img src={cppLogo} alt="Image" />
+                  <h5>C++</h5>
                 </div>
                 <div className="item">
-                  <img src={""} alt="Image" />
-                  <h5>Brand Identity</h5>
+                  <img src={csharpLogo} alt="Image" />
+                  <h5>C#</h5>
                 </div>
                 <div className="item">
-                  <img src={""} alt="Image" />
-                  <h5>Logo Design</h5>
+                  <img src={cLogo} alt="Image" />
+                  <h5>C</h5>
                 </div>
                 <div className="item">
-                  <img src={""} alt="Image" />
-                  <h5>Web Development</h5>
+                  <img src={cssLogo} alt="Image" />
+                  <h5>CSS</h5>
+                </div>
+                  <div className="item">
+                  <img src={jsLogo} alt="Image" />
+                  <h5>JavaScript</h5>
+                </div>
+                <div className="item">
+                  <img src={javaLogo} alt="Image" />
+                  <h5>Java</h5>
+                </div>
+                <div className="item">
+                  <img src={pythonLogo} alt="Image" />
+                  <h5>Python</h5>
+                </div>
+                <div className="item">
+                  <img src={sqlLogo} alt="Image" />
+                  <h5>SQL</h5>
+                </div>
+                <div className="item">
+                  <img src={vbaLogo} alt="Image" />
+                  <h5>VBA</h5>
+                </div>
+                <div className="item">
+                  <img src={tableauLogo} alt="Image" />
+                  <h5>Tableau</h5>
+                </div>
+                <div className="item">
+                  <img src={gitLogo} alt="Image" />
+                  <h5>GIT</h5>
+                </div>
+                <div className="item">
+                  <img src={mercurialLogo} alt="Image" />
+                  <h5>Mercurial</h5>
                 </div>
               </Carousel>
             </div>

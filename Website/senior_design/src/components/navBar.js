@@ -34,14 +34,14 @@ export const NavBar = () => {
                     <Nav className="me-auto">
                         <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')} >Home</Nav.Link>
                         <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>About</Nav.Link>
-                        <Nav.Link href="#experiance" className={activeLink === 'experiance' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('experiance')}>Experience</Nav.Link>
-                        <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+                        <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Experiance</Nav.Link>
+                        <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
                         <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>Contact</Nav.Link>
                     </Nav>
                     <span className="navbar-text">
-                        <div className="social-icons">
-                            <a href="#"><img src={githubLogo} alt="GitHub" /></a>
-                            <a href="#"><img src={linkedLogo} alt="LinkedIn" /></a>
+                        <div className="social-icon">
+                            <a href="https://github.com/sam-peacock1"><img src={githubLogo} alt="GitHub" /></a>
+                            <a href="https://www.linkedin.com/in/sam-a-peacock"><img src={linkedLogo} alt="LinkedIn" /></a>
                         </div>
                             <button className="vvd"><span>Let’s Connect</span></button>
                     </span>
