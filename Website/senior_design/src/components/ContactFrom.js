@@ -25,7 +25,7 @@ export const ContactForm = () => {
       setButtonText("Sending...");
       
       try {
-          let response = await fetch("http://localhost:5000/contact", {
+          let response = await fetch("https://server-yfz3.onrender.com", {
             method: "POST",
             headers: {
               "Content-Type": "application/json;charset=utf-8",
