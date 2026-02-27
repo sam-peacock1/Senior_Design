@@ -14,12 +14,11 @@ export const Bannar = () => {
                         <p>
                             about me parahraph!!!
                         </p>
-                        <button onClick={() => console.log('connect')}> Let's Connect <ArrowRightCircle size = {25} /> </button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         {/* <img src = {headerIMG} alt = "header img"/> */}
                     </Col>
-                </Row>1
+                </Row>
             </Container>
 
         </section>

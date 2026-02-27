@@ -1,5 +1,6 @@
-import { useState} from "react";
+import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+
 export const ContactForm = () => {
     const formInitialDetails = {
         firstName: '',
@@ -12,42 +13,64 @@ export const ContactForm = () => {
     const [buttonText, setButtonText] = useState('Send');
     const [status, setStatus] = useState({});
 
-     const onFormUpdate = (category, value) => {
+    const onFormUpdate = (category, value) => {
       setFormDetails({
         ...formDetails,
         [category]: value
       })
     }
 
-const handleSubmit = async (e) => {
-    e.preventDefault();
-    setButtonText("Sending...");
-    let response = await fetch("http://localhost:5000/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(formDetails),
-    });
-    setButtonText("Send");
-    let result = await response.json();
-    setFormDetails(formInitialDetails);
-    if (result.code == 200) {
-      setStatus({ succes: true, message: 'Message sent successfully'});
-    } else {
-      setStatus({ succes: false, message: 'Something went wrong, please try again later.'});
-    }
-  };
+    const handleSubmit = async (e) => {
+      e.preventDefault();
+      setButtonText("Sending...");
+      
+      try {
+          let response = await fetch("http://localhost:5000/contact", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json;charset=utf-8",
+            },
+            body: JSON.stringify(formDetails),
+          });
+          
+          setButtonText("Send");
+          let result = await response.json();
+          setFormDetails(formInitialDetails);
+          
+          if (result.code === 200) {
+            setStatus({ success: true, message: 'Message sent successfully'});
+          } else {
+            setStatus({ success: false, message: 'Something went wrong, please try again later.'});
+          }
+      } catch (error) {
+          setButtonText("Send");
+          setStatus({ success: false, message: 'Network error, please try again later.'});
+      }
+    };
 
     return (
         <section className="contact" id="contact">
             <Container>
-                <Row ClassName = "align-itmes-center">
-                    <Col md ={6}>
-                        <img src = {""} alt = "Contact me"/>
+                <Row className="align-items-center">
+                    <Col md={6}>
+                        {/* Option 1: Embedding the PDF directly for perfect crispness */}
+                        <object 
+                            data="/Peacock_Sam_Resume.pdf" 
+                            type="application/pdf" 
+                            width="100%" 
+                            height="900px" 
+                            style={{ borderRadius: '15px', backgroundColor: '#ffffff', overflow: 'hidden' }}
+                        >
+                            <p className="text-center mt-3">
+                                Unable to display PDF. <br/>
+                                <a href="/Peacock_Sam_Resume.pdf" download="Sam_Peacock_Resume.pdf" style={{ color: 'white', textDecoration: 'underline' }}>
+                                    Download my resume instead!
+                                </a>
+                            </p>
+                        </object>
                     </Col>
-                    <Col md ={6}>
-                    <h2>Get In Touch</h2>
+                    <Col md={6}>
+                        <h2>Get In Touch</h2>
                         <form onSubmit={handleSubmit}>
                             <Row>
                                 <Col size={12} sm={6} className="px-1">
@@ -69,7 +92,7 @@ const handleSubmit = async (e) => {
                                 {
                                     status.message &&
                                     <Col>
-                                        <p className={status.success === false ? "error" : "success"}>{status.message}</p>
+                                        <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
                                     </Col>
                                 }
                             </Row>

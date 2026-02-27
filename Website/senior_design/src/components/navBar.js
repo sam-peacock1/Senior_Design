@@ -33,8 +33,8 @@ export const NavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')} >Home</Nav.Link>
-                        <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>About</Nav.Link>
-                        <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Experiance</Nav.Link>
+                        <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>About</Nav.Link>
+                        <Nav.Link href="#Experiance" className={activeLink === 'Experiance' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Experiance')}>Experience</Nav.Link>
                         <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
                         <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>Contact</Nav.Link>
                     </Nav>
@@ -43,7 +43,9 @@ export const NavBar = () => {
                             <a href="https://github.com/sam-peacock1"><img src={githubLogo} alt="GitHub" /></a>
                             <a href="https://www.linkedin.com/in/sam-a-peacock"><img src={linkedLogo} alt="LinkedIn" /></a>
                         </div>
-                            <button className="vvd"><span>Let’s Connect</span></button>
+                        <button className="vvd" onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>
+                            <span>Let’s Connect</span>
+                        </button>
                     </span>
                 </Navbar.Collapse>
             </Container>
