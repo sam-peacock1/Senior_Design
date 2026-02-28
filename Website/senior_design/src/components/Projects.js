@@ -2,30 +2,13 @@ import { Col, Container, Tab, Row, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
-    const projects = [
-        {
-            title: "Project One",
-            description: "Description for project one.",
-            imgUrl: "https://via.placeholder.com/150"
-        },
-        {
-            title: "Project Two",
-            description: "Description for project two.",
-            imgUrl: "https://via.placeholder.com/150"
-        },
-        {
-            title: "Project Three",
-            description: "Description for project three.",
-            imgUrl: "https://via.placeholder.com/150"
-        }
-    ];
     return(
         <section className = "Projects" id="Projects">
             <Container>
                 <Row>
                     <Col>
                     <h2>Projects</h2>
-                    <p>Here are some of my professional experiences! They are ordered from most to least recent.</p>
+                    <p>Here are some of my personal projects during my time at the University of Cincinnati.</p>
                         <Tab.Container id="Projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
