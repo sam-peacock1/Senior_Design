@@ -34,14 +34,19 @@ export const NavBar = () => {
                     <Nav className="me-auto">
                         <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')} >Home</Nav.Link>
                         <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>About</Nav.Link>
-                        <Nav.Link href="#Experiance" className={activeLink === 'Experiance' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Experiance')}>Experience</Nav.Link>
                         <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
+                        <Nav.Link href="#Projects" className={activeLink === 'Projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Projects')}>Projects</Nav.Link>
+                        <Nav.Link href="#Experiance" className={activeLink === 'Experiance' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Experiance')}>Experience</Nav.Link>
                         <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>Contact</Nav.Link>
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="https://github.com/sam-peacock1"><img src={githubLogo} alt="GitHub" /></a>
-                            <a href="https://www.linkedin.com/in/sam-a-peacock"><img src={linkedLogo} alt="LinkedIn" /></a>
+                            <a href="https://github.com/sam-peacock1" target="_blank" rel="noopener noreferrer">
+                                <img src={githubLogo} alt="GitHub" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/sam-a-peacock" target="_blank" rel="noopener noreferrer">
+                                <img src={linkedLogo} alt="LinkedIn" />
+                            </a>
                         </div>
                         <button className="vvd" onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>
                             <span>Let’s Connect</span>

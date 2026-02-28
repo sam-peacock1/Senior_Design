@@ -9,10 +9,10 @@ export const Bannar = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className = "tagline" > Welcome to my portfolio! </span>
                         <h1>{"Hello, I'm Sam Peacock"}
-                            <span classsName = "wrap"> Software Developer </span>
+                            <span classsName = "wrap"> </span>
                         </h1>
                         <p>
-                            about me parahraph!!!
+                            Im a software developer currently pursuing a Bachelor of Science in Computer Science at the University of Cincinnati, alongside a Certification in Cyber Operations. My background spans full-stack development, robotics software, and system infrastructure, with hands-on engineering experience at companies like Bosch, Fives, and the Cincinnati Reds. I am highly passionate about tackling complex technical challenges—whether that involves diving deep into operating systems and automata, exploring the intricacies of network security, or building responsive, user-centric web applications. From optimizing robotic calibration testing in C++ to building out interactive React interfaces, I enjoy creating efficient, scalable solutions that make a tangible impact.
                         </p>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
