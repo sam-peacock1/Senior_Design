@@ -1,5 +1,4 @@
 import {Container, Row, Col} from 'react-bootstrap';
-import {ArrowRightCircle} from 'react-bootstrap-icons';
 //import headerIMG from '../assets/img/header-img.svg';
 export const Bannar = () => {
     return (
