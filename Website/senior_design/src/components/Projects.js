@@ -13,34 +13,36 @@ export const Projects = () => {
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
                                     <Nav.Link eventKey="first">
-                                        Fives Machining Systems
+                                        Senior Design Project
                                         <br />
                                         <span style={{ fontSize: '14px', fontWeight: '400', opacity: '0.8' }}>
-                                            Software Developer
+                                            Personal Portfolio Website (this website!)
                                         </span>
                                     </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link eventKey="second">
-                                        Cincinnati Reds
+                                        Full Stack Web Application
                                         <br />
                                         <span style={{ fontSize: '14px', fontWeight: '400', opacity: '0.8' }}>
-                                            GameDay Systems Developer
+                                            Grocery store stock management system
                                         </span>
                                     </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link eventKey="third">
-                                        Bosch
+                                        EV3 Robot
                                         <br />
                                         <span style={{ fontSize: '14px', fontWeight: '400', opacity: '0.8' }}>
-                                            MES Developer
+                                            EV3 robot that can complete a list of tasks
                                         </span>
                                     </Nav.Link>
                                 </Nav.Item>
                             </Nav>
                             <Tab.Content>
                                 <Tab.Pane eventKey="first">
+                                    <p> For my senior design project, I created this personal portfolio website using React and Bootstrap. I designed and implemented the website to showcase my skills, experience, and projects in a visually appealing and user-friendly manner. The website features a responsive design that adapts to different screen sizes, ensuring a seamless experience across devices. It includes sections for my biography, skills, experience, and projects, allowing visitors to easily navigate and learn more about my background and accomplishments. I also integrated various interactive elements, such as a carousel for showcasing my skills and a tabbed interface for displaying my experience and projects. Overall, this project allowed me to demonstrate my proficiency in web development and create a platform to effectively present myself to potential employers and collaborators.
+                                    </p>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second">
                                 </Tab.Pane>
