@@ -44,7 +44,7 @@ h1,h2,h3,h4,h5,h6{
 p, a, li, button, ul {
   margin: 0;
   padding: 0;
-  line-height: normal;
+  line-height: 1.6; 
   text-decoration: none;
 }
 
@@ -233,7 +233,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /******* Banner CSS********/
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 60px 0 100px 0;
   /*background-image: url('./assets/img/banner-bg.png'); dont have backround image yet*/
   background-position: top center;
   background-size: cover;
@@ -695,4 +695,115 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .Projects .nav.nav-pills .nav-item:last-child .nav-link {
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 0 50px 50px 0;
+}
+
+/************Two-Column Layouts (Hero & Projects) ************/
+
+
+.two-col-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  text-align: left; 
+}
+
+.two-col-text {
+  flex: 1;
+}
+
+.two-col-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.two-col-image img {
+  max-width: 400px;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.2); 
+}
+
+/************ Projects & Experience Tab Content ************/
+
+.tab-content-split {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.tab-content-image {
+  flex: 1;
+}
+
+.tab-content-image img {
+  border-radius: 15px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tab-content-text {
+  flex: 1;
+  color: #B8B8B8;
+}
+
+
+.experience-content {
+  text-align: left;
+  max-width: 800px;
+  margin: 40px auto 0 auto; 
+  color: #B8B8B8;
+}
+
+/* Styles for the bullet points in Projects and Experience */
+.tab-content-text ul,
+.experience-content ul {
+  padding-left: 20px;
+  margin-top: 15px;
+}
+
+.tab-content-text li,
+.experience-content li {
+  margin-bottom: 12px;
+}
+
+.experience-content h4 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.experience-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.experience-logo {
+  flex-shrink: 0; 
+}
+
+.experience-logo img {
+  width: 100px !important;      
+  height: 100px !important;     
+  max-width: 100px !important;  
+  max-height: 100px !important; 
+  object-fit: contain; 
+  background-color: #ffffff; 
+  padding: 10px;               
+  border-radius: 5px;         
+}
+
+.experience-header h4 {
+  margin-bottom: 0; 
+}
+
+.experience-company {
+  color: #B8B8B8;
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 4px;
+  display: block;
 }
