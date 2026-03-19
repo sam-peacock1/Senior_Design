@@ -1,4 +1,7 @@
 [build]
   base = "Senior-Design"
-  command = "CI=false npm run build"
+  command = "npm run build"
   publish = "build"
+
+[build.environment]
+  CI = "false"
