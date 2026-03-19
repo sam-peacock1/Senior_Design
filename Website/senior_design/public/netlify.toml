@@ -1,4 +1,4 @@
-[[redirects]]
-from="/*"
-to="/index.html"
-status=200
+[build]
+  base = "Senior-Design"
+  command = "CI=false npm run build"
+  publish = "build"
