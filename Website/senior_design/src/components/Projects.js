@@ -1,6 +1,5 @@
 import { Col, Container, Tab, Row, Nav } from "react-bootstrap";
-// import fullStackImg from "../assets/img/full-stack.png"; 
-// import robotImg from "../assets/img/robot.png";
+import robotImg from "../assets/img/EV3.jpg";
 
 export const Projects = () => {
     return(
@@ -42,7 +41,6 @@ export const Projects = () => {
                             </Nav>
                             <Tab.Content>
                                 <Tab.Pane eventKey="first">
-                                    {/* Text-only layout, constrained width */}
                                     <div className="experience-content">
                                         <p>For my senior design project, I created this personal portfolio website to showcase my skills, experience, and projects in a visually appealing and user-friendly manner.</p>
                                         <ul>
@@ -54,11 +52,18 @@ export const Projects = () => {
                                     </div>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second">
-                                    {/* Image Left, Text Right layout */}
                                     <div className="tab-content-split">
                                         <div className="tab-content-image">
-                                            {/* Swap this placeholder for your actual image later */}
-                                            <img src="https://via.placeholder.com/600x350/151515/FFFFFF?text=Grocery+App+Screenshot" alt="Grocery Store UI" />
+                                            <iframe 
+                                                width="100%" 
+                                                height="350" 
+                                                src="https://www.youtube.com/embed/JlCzTdclvS0?t=5s" 
+                                                title="Grocery Store Stock Management System Demo" 
+                                                frameBorder="0" 
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                                allowFullScreen
+                                                style={{ borderRadius: '8px' }}
+                                            ></iframe>
                                         </div>
                                         <div className="tab-content-text">
                                             <p>Developed a grocery store website supporting both customer and employee accounts.</p>
@@ -72,11 +77,9 @@ export const Projects = () => {
                                     </div>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="third">
-                                    {/* Image Left, Text Right layout */}
                                     <div className="tab-content-split">
                                         <div className="tab-content-image">
-                                            {/* Swap this placeholder for your actual image later */}
-                                            <img src="https://via.placeholder.com/600x350/151515/FFFFFF?text=EV3+Robot+Photo" alt="EV3 Robot" />
+                                            <img src={robotImg} alt="EV3 Robot" />
                                         </div>
                                         <div className="tab-content-text">
                                             <p>Designed and programmed an EV3 robot capable of completing a specific list of automated tasks.</p>
