@@ -73,7 +73,8 @@ The **NavBar** is fixed at the top of the screen, allowing you to jump quickly b
 
 > **Note:** On mobile devices, the NavBar may collapse into a hamburger menu icon. Tap the icon to expand the navigation options.
 
-![Screenshot placeholder: Navigation Bar with links to Home, Skills, Projects, and Contact] I will have Screenshots here once that portion of my website is done, currently in the styling phase.
+<img width="1311" height="169" alt="image" src="https://github.com/user-attachments/assets/699c4a74-5ddf-4f5f-b1dc-c16f651eb221" />
+
 
 ### The Banner (Home)
 Upon loading the site, you are greeted by the **Banner**. This section introduces the developer and provides a brief professional summary.
@@ -82,13 +83,15 @@ Upon loading the site, you are greeted by the **Banner**. This section introduce
 ### Viewing Skills
 The **Skills** component categorizes technical abilities (e.g., Languages, Frameworks, Tools).
 * Hover over specific skill icons to see the name of the technology.
+<img width="1309" height="634" alt="image" src="https://github.com/user-attachments/assets/a19d192a-835d-427b-8d09-17d4660f78bb" />
 
 ### Browsing Projects
 The **Projects** section displays a gallery of completed work.
 1.  **Project Cards:** Each project is displayed as a card containing a title, description, and technology stack.
 2.  **Learn More:** Click on a project card or the "View Code" link to be taken to the specific GitHub repository or live demo for that project.
 
-![Screenshot placeholder: Grid view of Project Cards showing titles and descriptions] I will have Screenshots here once that portion of my website is done, currently in the styling phase.
+<img width="1090" height="745" alt="image" src="https://github.com/user-attachments/assets/c6fc7328-02c3-45eb-b9f9-1967b3d94e8c" />
+
 
 ### Contacting the Developer
 The **Contact** section allows you to send a direct message.
