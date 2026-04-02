@@ -20,9 +20,28 @@ export const ContactForm = () => {
       })
     }
 
+    // Email validation helper function
+    const validateEmail = (email) => {
+        return String(email)
+          .toLowerCase()
+          .match(/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/);
+    };
+
     const handleSubmit = async (e) => {
       e.preventDefault();
+
+      if (!formDetails.firstName || !formDetails.lastName || !formDetails.email || !formDetails.message) {
+        setStatus({ success: false, message: 'Please fill in all required fields.' });
+        return; // Stop the function here
+      }
+      
+      if (!validateEmail(formDetails.email)) {
+        setStatus({ success: false, message: 'Please enter a valid email address.' });
+        return; 
+      }
+
       setButtonText("Sending...");
+      setStatus({});
       
       try {
           let response = await fetch("https://server-yfz3.onrender.com/contact", {
@@ -35,9 +54,9 @@ export const ContactForm = () => {
           
           setButtonText("Send");
           let result = await response.json();
-          setFormDetails(formInitialDetails);
           
           if (result.code === 200) {
+            setFormDetails(formInitialDetails);
             setStatus({ success: true, message: 'Message sent successfully'});
           } else {
             setStatus({ success: false, message: 'Something went wrong, please try again later.'});
@@ -53,7 +72,6 @@ export const ContactForm = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col md={6}>
-                        {/* Option 1: Embedding the PDF directly for perfect crispness */}
                         <object 
                             data="/Peacock_Sam_Resume.pdf" 
                             type="application/pdf" 
@@ -83,7 +101,7 @@ export const ContactForm = () => {
                                     <input type="email" value={formDetails.email} placeholder="Email Address" onChange={(e) => onFormUpdate('email', e.target.value)} />
                                 </Col>
                                 <Col size={12} sm={6} className="px-1">
-                                    <input type="tel" value={formDetails.phone} placeholder="Phone No." onChange={(e) => onFormUpdate('phone', e.target.value)}/>
+                                    <input type="tel" value={formDetails.phone} placeholder="Phone No. (Optional)" onChange={(e) => onFormUpdate('phone', e.target.value)}/>
                                 </Col>
                                 <Col size={12} className="px-1">
                                     <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>

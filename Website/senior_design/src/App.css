@@ -234,7 +234,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 60px 0 100px 0;
-  /*background-image: url('./assets/img/banner-bg.png'); dont have backround image yet*/
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -542,7 +541,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  /*background-image: url('./assets/img/footer-bg.png'); Dont have fotter image yet*/
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -697,7 +695,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     border-radius: 0 50px 50px 0;
 }
 
-/************Two-Column Layouts (Hero & Projects) ************/
+/************Two-Column Layouts (About me & Projects) ************/
 
 
 .two-col-layout {
@@ -757,7 +755,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
 }
 
-/* Styles for the bullet points in Projects and Experience */
 .tab-content-text ul,
 .experience-content ul {
   padding-left: 20px;
@@ -808,24 +805,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
 }
 
-/************ Mobile Responsiveness Fixes ************/
 @media (max-width: 991px) {
-  /* Stack the pill containers and remove the single wrapper background */
   .Projects .nav.nav-pills,
   .Experiance .nav.nav-pills {
     width: 100%;
     flex-direction: column;
     background-color: transparent; 
+    overflow: visible;
+    border-radius: 0;  
   }
   
-  /* Make each tab take full width and add a gap between them */
   .Projects .nav.nav-pills .nav-item,
   .Experiance .nav.nav-pills .nav-item {
     width: 100%;
     margin-bottom: 15px; 
   }
   
-  /* Override the connected desktop borders so EVERY pill has a full border and background */
   .Projects .nav.nav-pills .nav-item:first-child .nav-link,
   .Projects .nav.nav-pills .nav-item:nth-child(2) .nav-link,
   .Projects .nav.nav-pills .nav-item:last-child .nav-link,
@@ -838,19 +833,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     height: auto !important;
   }
 
-  /* Stack the project image/video and text so they aren't side-by-side on tiny screens */
+
   .tab-content-split {
     flex-direction: column;
     gap: 25px;
   }
   
-  /* Stack the hero section or any other two-column layouts */
   .two-col-layout {
     flex-direction: column;
   }
 }
 @media (max-width: 991px) {
-  /* Shrink the YouTube iframe height for mobile so it doesn't dominate the screen */
   .tab-content-image iframe {
       height: 220px !important;
   }
