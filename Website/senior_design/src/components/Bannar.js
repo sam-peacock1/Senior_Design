@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import profileImg from '../assets/img/mugshot.jpg';
+import profileImg from '../assets/img/Sam_Peacock_Headshot.jpg';
 
 export const Bannar = () => {
     return (
